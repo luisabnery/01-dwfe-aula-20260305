@@ -16,22 +16,30 @@ header {
     height: 2rem;
     background-color: #252523;
     color: #eee;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: .5rem;
 }
 
 section {
-    border: .1rem solid blue;
+    /* border: .1rem solid blue; */
     display: flex;
     flex: 1;
 }
 
 nav {
-    border: .1rem solid orangered;
+    /* border: .1rem solid orangered; */
+    background-color: #eee;
+    padding: .5rem;
 }
 
 main {
-    border: .1rem solid purple;
+    /* border: .1rem solid purple; */
     display: flex;
     flex: 1;
+    padding: .5rem;
 }
 
 footer {
@@ -39,4 +47,9 @@ footer {
     height: 2rem;
     background-color: #252523;
     color: #eee;
+    display: flex;
+    /* justify-content: center; */
+    align-content: center;
+    align-items: center;
+    padding: .5rem;
 }
