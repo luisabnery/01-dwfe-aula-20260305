@@ -1,5 +1,6 @@
 .cartao{
-    border: Irem solid #ccc;
+    border: 1rem solid #ccc;
+    border-radius: ;
     display: flex;
     flex-direction: column;
     width: 15rem;
