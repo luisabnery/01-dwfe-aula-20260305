@@ -1,5 +1,7 @@
+@import url("cartao.css");
+
 * {
-    font-family: 'segoe-UI';
+    font-family: "Segoe UI", Arial, sans-serif;
     font-size: 16px;
     margin: 0;
     padding: 0;
