@@ -33,3 +33,22 @@ li{
 .opcao:hover .rotulo {
     text-align: right;
 }
+
+.opcao:hover .icone-final {
+    opacity: 1;
+}
+
+.icone-inicial {
+    width: 1.5rem;
+}
+
+.rotulo{
+    flex: 1;
+}
+
+.icone-final {
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in;
+}
