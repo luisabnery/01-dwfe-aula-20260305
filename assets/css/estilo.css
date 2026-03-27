@@ -1,4 +1,5 @@
 @import url("cartao.css");
+@import url(menulateral.css);
 
 * {
     font-family: "Segoe UI", Arial, sans-serif;
@@ -29,12 +30,6 @@ section {
     /* border: .1rem solid blue; */
     display: flex;
     flex: 1;
-}
-
-nav {
-    /* border: .1rem solid orangered; */
-    background-color: #eee;
-    padding: .5rem;
 }
 
 main {
