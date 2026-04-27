@@ -1,29 +1,29 @@
 header {
     /* border: 0.1rem solid red; */
-    height: 2rem;
+    height: 4rem;
     background-color: #252523;
     color: #eee;
     display: flex;
     /* justify-content: center; */
     align-content: center;
     align-items: center;
-    padding: .5rem;
+    padding: 0.5rem;
 }
 
 .logo{
-    border: .1rem blue solid;
-    background-color: blue;
+    border: .1rem rgb(238, 205, 61) solid;
+    background-color: rgb(80, 87, 185);
     color: #eeee;
     font-weight: bold;
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: .7rem;
+    padding: 0.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-right: .7rem;
+    margin-right: 0.7rem;
 }
 
 .titulo {
