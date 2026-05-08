@@ -1,6 +1,5 @@
-
 nav {
-    /* border: .1rem solid orangered; */
+    /* border: .1rem orangeredsolid orangered; */
     width: 15rem;
     background-color: #eee;
     padding: 0.5rem;
@@ -10,11 +9,12 @@ a {
     text-decoration: none;
 }
 
-li{
+li {
     margin-bottom: 1rem;
 }
 
-.opcao{
+.opcao {
+    /* border: .1rem solid green; */
     display: flex;
     border-radius: 0.5rem;
     padding: 0.6rem;
@@ -25,11 +25,10 @@ li{
 .opcao:hover {
     background-color: #ccc;
     color: black;
-    box-shadow: 0.3rem 0.3rem 0.3rem 0.01 #ddd;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.01rem #ddd;
     border: 0.1rem solid #bdbdbd;
 }
- 
-/*  nessa parte ele espcifica onde o mouse vai passar*/
+
 .opcao:hover .rotulo {
     text-align: right;
 }
@@ -38,16 +37,18 @@ li{
     opacity: 1;
 }
 
-.icone-inicial {
+.icone-inicial{
+    /*border: .1rem solid red;*/
     width: 1.5rem;
 }
-
 .rotulo{
+    /*border: .1rem solid #0400ff;*/
     flex: 1;
 }
 
 .icone-final {
-    width: 1rem;
+    /*border: .1rem solid #d00ff;*/
+    width: 1.5rem;
     text-align: right;
     opacity: 0;
     transition: opacity 0.3s ease-in;

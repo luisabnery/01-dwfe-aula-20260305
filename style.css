@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #c9d6ff;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header, footer {
+    background-color: #252523;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.logo {
+    border: .1rem blue solid; /* borda destacada*/
+    background-color: blue; /*cor de fundo ao redor da logo da página*/
+    color: #eeee; /*cor da escrita*/
+    font-weight: bold; /* deixa escrita em negrito*/
+    border-radius: 100%; /* arredondar bordas*/
+    width: 1rem;
+    height: 1rem;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: 0.7rem; /*distancia do canto direito da pagina*/
+}
+
+.titulo {
+    font-size: 1.3rem;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.formulario h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 0.6rem;
+    margin-bottom: 0.7rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 0.7rem;
+    border: none;
+    border-radius: 0.4rem;
+    background-color: #222949;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #252523;
+}

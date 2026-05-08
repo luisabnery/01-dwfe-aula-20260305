@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: calc(100vh - 3rem); /*altura do footer */
+}
+
+body {
+    background-color: #e6e6e6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

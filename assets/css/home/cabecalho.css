@@ -1,6 +1,6 @@
 header {
-    /* border: 0.1rem solid red; */
-    height: 2rem;
+    /* border:  0.1rem solid red; */
+    height: 4rem;
     background-color: #252523;
     color: #eee;
     display: flex;
@@ -13,7 +13,7 @@ header {
 .logo{
     border: .1rem blue solid;
     background-color: blue;
-    color: #eeee;
+    color: #eee;
     font-weight: bold;
     border-radius: 100%;
     width: 1rem;
@@ -26,35 +26,32 @@ header {
     margin-right: .7rem;
 }
 
-.titulo {
-    /* border: 1rem solid white; */
+.titulo{
     flex: 1;
+    /* border: .1rem solid white; */
 }
 
-.menu-hamburguer {
+.menu-hamburguer{
     /* border: .1rem solid red; */
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: .8rem;
     display: flex;
     justify-content: center;
-    align-items: center;
     align-content: center;
+    align-items: center;
     background-color: #464646;
-
+    padding: .8rem;
 }
-
-.menu-hamburguer i{
+.menu-hamburguer i {
     font-size: 1.2rem;
     color: #ccc;
 }
 
-.menu-hamburguer:hover i {
-    color:#eee;
+.menu-hamburguer :hover {
+    color: #eee;
 }
 
-.menu-hamburguer i:hover{
-    color:white;
-
+.menu-hamburguer i :hover {
+    color: white;
 }

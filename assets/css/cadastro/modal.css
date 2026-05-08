@@ -1,0 +1,96 @@
+.modal {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    width: 300px;
+    border-top: 3px solid #1818b0;
+}
+
+.modal h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.modal input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: 1px solid #ccc; 
+}
+
+.modal button {
+    width: 100%;
+    padding: 10px;
+    background: blue;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    box-sizing: border-box; 
+}
+
+.modal button:hover{
+    background-color: #1818b0;
+    color: white;
+}
+
+.modal input:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 0 2px rgba(180, 180, 180, 0.25);
+}
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 2rem 0;
+}
+
+.divider {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.divider-line {
+    flex: 1;
+    height: 1px;
+    background: #ccc;
+}
+
+.divider-text {
+    margin: 0 10px;
+    color: #666;
+    font-size: 14px;
+}
+
+.esqueceu-container {
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.esqueceu {
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+}
+.modal label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 14px;
+    color: #333;
+}
+.cadastro-link {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+.cadastro-link a {
+    color: #1818b0;
+    text-decoration: none;
+}

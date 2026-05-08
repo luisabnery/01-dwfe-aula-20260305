@@ -1,0 +1,19 @@
+@import url("cabecalho.css");
+@import url("cartao.css");
+@import url("corpo.css");
+@import url("menulateral.css");
+@import url("rodape.css");
+@import url("responsividade.css");
+
+* {
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
