@@ -1,39 +1,29 @@
-const email = "admin@exemplo.com";
-<<<<<<< HEAD
-const senha = "1234"
+import {usuario} from "./bd"; // essa linha foi escrita para substituir as duas abaixo de dados.
+
+// const email = "admin@exemplo.com"; // mock ou mockup: inserção de dados fictícios
+// const senha = "1234";
 
 function verificarCredenciais(){
     const emailInformado = document.getElementById("email").value;
     const senhaInformada = document.getElementById("senha").value;
-
+    
     if(emailInformado === email){
-        alert("E-mail informado corretamente!");
+        alert("E-mail informado corretamente");
         if(senhaInformada === senha){
             alert("Senha informada corretamente!");
             window.location = "home.html";
-        } else{
-            alert("Senha informada incorretamente!");
         }
-    } else{
-        alert("E-mail informado incorretamente!");
-    }
-=======
-const senha = "1234";
-function verificarCredenciais() {
-    const emailInformado = document.getElementById("email").value;
-    const senhaInformada = document.getElementById("senha").value;
-
-    if (emailInformado == email) {
-        alert("E-mail informado corretamente!");
-        if (senhaInformada == senha) {
-            alert("Senha Informada corretamente!");
-            window.location = "home.html";
-        }
-        else
-            alert("Senha informada incorretamente!");
-
+        else 
+            alert("Senha informada incorretamente!");       
     }
     else
         alert("E-mail informado incorretamente!");
->>>>>>> fa1efa7667bc7a5a5a2e758e186f83e31d4138f5
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const botao = document.querySelector("button");
+    botao.addEventListener("click", (e) => {
+        e.preventDefault();
+        verificarCredenciais();
+    });
+});
