@@ -1,5 +1,9 @@
 header {
+<<<<<<< HEAD
     /* border:  0.1rem solid red; */
+=======
+    /* border: 0.1rem solid red; */
+>>>>>>> fa1efa7667bc7a5a5a2e758e186f83e31d4138f5
     height: 4rem;
     background-color: #252523;
     color: #eee;
@@ -7,23 +11,29 @@ header {
     /* justify-content: center; */
     align-content: center;
     align-items: center;
-    padding: .5rem;
+    padding: 0.5rem;
 }
 
 .logo{
+<<<<<<< HEAD
     border: .1rem blue solid;
     background-color: blue;
     color: #eee;
+=======
+    border: .1rem rgb(238, 205, 61) solid;
+    background-color: rgb(80, 87, 185);
+    color: #eeee;
+>>>>>>> fa1efa7667bc7a5a5a2e758e186f83e31d4138f5
     font-weight: bold;
     border-radius: 100%;
     width: 1rem;
     height: 1rem;
-    padding: .7rem;
+    padding: 0.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-right: .7rem;
+    margin-right: 0.7rem;
 }
 
 .titulo{

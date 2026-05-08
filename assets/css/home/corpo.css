@@ -8,6 +8,7 @@ section {
     /* border: .1rem solid purple; */
     display: flex;
     flex: 1;
+<<<<<<< HEAD
     padding: 1rem;
     flex-wrap: wrap;
     gap: .8rem;
@@ -18,4 +19,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+=======
+    padding: .1rem;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+    justify-content: left;
+>>>>>>> fa1efa7667bc7a5a5a2e758e186f83e31d4138f5
 }
