@@ -1,7 +1,8 @@
-@import url("cartao.css");
+@import url("rodape.css");
 @import url("cabecalho.css");
 @import url("corpo.css");
-@import url("rodape.css");
+@im
+port url("rodape.css");
 @import url("menulateral.css");
 @import url("responsividade.css");
 
@@ -11,7 +12,8 @@
     margin: 0;
     padding: 0;
 }
-
-html {
-    /*border .1rem green solid*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }

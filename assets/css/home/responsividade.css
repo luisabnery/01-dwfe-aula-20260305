@@ -1,17 +1,9 @@
-<<<<<<< HEAD
-@media (max-width: 576px){
-=======
-@media (max-widht:576px){
->>>>>>> fa1efa7667bc7a5a5a2e758e186f83e31d4138f5
-    .titulo{
+@media (max-width: 576px) {
+    .titulo {
         opacity: 0;
     }
 
-<<<<<<< HEAD
-    nav{
-=======
     nav {
->>>>>>> fa1efa7667bc7a5a5a2e758e186f83e31d4138f5
         display: none;
     }
 
@@ -20,8 +12,4 @@
         align-items: center;
         align-content: center;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> fa1efa7667bc7a5a5a2e758e186f83e31d4138f5
